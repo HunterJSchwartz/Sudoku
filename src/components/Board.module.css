@@ -1,9 +1,8 @@
 .board {
-    background-color: #7a7a7a;
     display: grid;
-    grid-template-columns: repeat(9, 4vw);
+    grid-template-columns: repeat(9, 1fr);
     width: 35%;
+    min-width: 300px;
+    max-width: 700px;
     margin: auto;
-    list-style: none;
-    font-size: calc(1.5vw);
 }

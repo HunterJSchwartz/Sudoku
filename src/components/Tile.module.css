@@ -2,9 +2,11 @@
     background-color: #ffffff;
     aspect-ratio: 1 / 1;
     display: flex;
+    border-radius: 0;
 }
 
 .input {
+    border-radius: 0;
     margin: 0;
     padding: 0;
     width: 100%;
