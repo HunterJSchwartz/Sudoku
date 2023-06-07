@@ -1,0 +1,9 @@
+.board {
+    background-color: #7a7a7a;
+    display: grid;
+    grid-template-columns: repeat(9, 4vw);
+    width: 35%;
+    margin: auto;
+    list-style: none;
+    font-size: calc(1.5vw);
+}
