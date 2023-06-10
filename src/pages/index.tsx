@@ -17,7 +17,9 @@ export default function Home() {
       </header>
 
       <main>
-        <Board/>
+        <Board />
+        <button>New</button>
+        <button>Solve</button>
       </main>
     </>
   )

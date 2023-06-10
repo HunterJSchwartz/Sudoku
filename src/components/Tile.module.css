@@ -15,7 +15,7 @@
     background: none;
     outline: none;
     border: var(--thin-outline) solid black;
-    font-size: 1.5rem;
+    font-size: calc(1.15vw + 1rem);
     font-weight: bold;
     color: black;
 }
@@ -46,4 +46,8 @@
 
 .tile:nth-child(n + 73):nth-child(-n + 81){
     border-bottom: var(--thick-outline) solid black;
+}
+
+.incorrect {
+    background-color: rgb(239, 91, 91);
 }
