@@ -50,7 +50,7 @@ export default function Board() {
         for (let i = 0; i < BOARD_SIZE; i++) {
             arr[i] = [];
             for (let j = 0; j < BOARD_SIZE; j++) {
-                arr[i][j] = { tileValue: "", updatable: true, valid: true };
+                arr[i][j] = { x: i, y: j, tileValue: "", updatable: true, valid: true };
             }
         }
         setBoard(arr);
