@@ -11,6 +11,7 @@ type TileType = {
     valid: boolean;
 }
 
+
 export default function Board() {
     const BOARD_SIZE: number = 9;
     const EMPTY_BOARD = () => {
